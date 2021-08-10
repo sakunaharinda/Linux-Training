@@ -1,0 +1,80 @@
+# Organizationl Units
+
+dn: ou=books,dc=ltacademy,dc=com
+objectclass: organizationalunit
+ou: books
+description: Books
+
+
+#Books
+
+dn: documentIdentifier=1001,ou=books,dc=ltacademy,dc=com
+objectClass: document
+objectClass: top
+documentIdentifier: 1001
+documentTitle: Data Smart
+documentPublisher: Wiley
+
+
+dn: documentIdentifier=1002,ou=books,dc=ltacademy,dc=com
+objectClass: document
+objectClass: top
+documentIdentifier: 1002
+documentTitle: God Created the Integers
+documentPublisher: Penguin
+
+
+dn: documentIdentifier=1003,ou=books,dc=ltacademy,dc=com
+objectClass: document
+objectClass: top
+documentIdentifier: 1003
+documentTitle: Superfreakonomics
+documentPublisher: HarperCollins
+
+
+dn: documentIdentifier=1004,ou=books,dc=ltacademy,dc=com
+objectClass: document
+objectClass: top
+documentIdentifier: 1004
+documentTitle: Orientalism
+documentPublisher: Penguin
+
+
+dn: documentIdentifier=1005,ou=books,dc=ltacademy,dc=com
+objectClass: document
+objectClass: top
+documentIdentifier: 1005
+documentTitle: Nature of Statistical Learning Theory, The
+documentPublisher: Springer
+
+
+dn: documentIdentifier=1006,ou=books,dc=ltacademy,dc=com
+objectClass: document
+objectClass: top
+documentIdentifier: 1006
+documentTitle: Integration of the Indian States
+documentPublisher: Orient Blackswan
+
+
+dn: documentIdentifier=1007,ou=books,dc=ltacademy,dc=com
+objectClass: document
+objectClass: top
+documentIdentifier: 1007
+documentTitle: Drunkard's Walk, The
+documentPublisher: Penguin
+
+
+dn: documentIdentifier=1008,ou=books,dc=ltacademy,dc=com
+objectClass: document
+objectClass: top
+documentIdentifier: 1008
+documentTitle: Image Processing & Mathematical Morphology
+documentPublisher: CRC
+
+
+dn: documentIdentifier=1009,ou=books,dc=ltacademy,dc=com
+objectClass: document
+objectClass: top
+documentIdentifier: 1009
+documentTitle: How to Think Like Sherlock Holmes
+documentPublisher: CRC
